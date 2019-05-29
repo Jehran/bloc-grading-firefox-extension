@@ -1,6 +1,10 @@
-## Bloc / Thinkful Grading Chrome Extension
+## Bloc / Thinkful Grading Firefox Extension
 
-Chrome extension for graders to auto fill with a grading signature and greeting
+Firefox extension for graders to auto fill with a grading signature and greeting
+
+__Note:__ Based on the 
+
+[https://github.com/nikibrown/bloc-grading-chrome-extension](Chrome Extension)
 
 ### Video walk through
 
@@ -9,13 +13,11 @@ Chrome extension for graders to auto fill with a grading signature and greeting
 ### Installation instructions
 
 - Download or clone this repo
-- In Chrome go to [chrome://extensions/](chrome://extensions/)
-- Turn on developer mode
-- ![developer mode](http://nikib.ro/wn/screenshots/Extensions_2018-04-09_08-05-18.jpg)
-- Click on `load unpacked` and browse to the extension files that you cloned or downloaded
+- In Firefox go to [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
+- Click on "Load Temporary Add-on..."
+- Browse to and select any file in the extension directory (I chose the manifest.json)
 - Thats it!
-- To refresh the page (when you pull from the repo or make changes) you can click on the refresh 
-icon.
+- To refresh the extension (when you pull from the repo or make changes) you can click on the reload button.
 
 ### Usage
 
