@@ -4,7 +4,9 @@ Firefox extension for graders to auto fill with a grading signature and greeting
 
 __Note:__ Based on the 
 
-[https://github.com/nikibrown/bloc-grading-chrome-extension](Chrome Extension)
+[Chrome Extension](https://github.com/nikibrown/bloc-grading-chrome-extension)
+
+[|Chrome Extension]
 
 ### Video walk through
 
