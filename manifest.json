@@ -1,8 +1,8 @@
 {
-  "manifest_version": 4,
-  "name": "Bloc/Thinkful Grading Chrome Extension",
-  "description": "Chrome extension for Bloc and Thinkful graders to auto fill with default grading message and students name.",
-  "version": "2.0.0",
+  "manifest_version": 2,
+  "name": "Bloc/Thinkful Grading Firefox Extension",
+  "description": "Firefox extension for Bloc and Thinkful graders to auto fill with default grading message and students name.",
+  "version": "1.0.0",
   "content_scripts": [
       {
         "matches": [
@@ -14,9 +14,16 @@
       }
     ],
   "permissions": ["storage", "tabs"],
-  "options_page": "options.html",
+  "icons": {
+    "32": "thinkful.ico"
+  },
   "browser_action": {
     "default_popup": "options.html",
     "default_title": "Grading Options"
+  },
+  "applications": {
+    "gecko": {
+      "id": "grading@thinkful.com"
+    }
   }
 }

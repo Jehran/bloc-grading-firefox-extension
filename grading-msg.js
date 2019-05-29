@@ -5,7 +5,7 @@ const separator = `\n\n***\n`;
 let contentInTextArea = '';
 
 // Receive a message from options.js (the extension popup) to refreeh the message
-chrome.runtime.onMessage.addListener((request) => {
+browser.runtime.onMessage.addListener((request) => {
   if (request.action === 'REFRESH_MESSAGE') {
     updateMessage('REFRESH');
   }
@@ -15,7 +15,7 @@ const updateMessage = (type) => {
 
 // Populate grader options.
 // Pass null to get all store
-  chrome.storage.sync.get(null, (data) => {
+browser.storage.sync.get(null, (data) => {
     const graderName = data.graderName || '';
     const gradingProgram = data.gradingProgram;
 
