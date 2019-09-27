@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "Bloc/Thinkful Grading Firefox Extension",
-  "description": "Firefox extension for Bloc and Thinkful graders to auto fill with default grading message and students name.",
+  "name": "Bloc/Thinkful Grading Extension",
+  "description": "Extension for Bloc and Thinkful graders to auto fill with default grading message and students name.",
   "version": "1.1.0",
   "content_scripts": [
       {
